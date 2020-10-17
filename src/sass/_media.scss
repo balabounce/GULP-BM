@@ -1,5 +1,17 @@
 @media ( max-width: 1200px ) {
-
+    .title {
+        &_left {
+            text-align: center;
+        }
+    }
+    .consultation {
+        &__descr {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 50px auto;
+    }
 }
 
 @media ( max-width: 991px ) {
@@ -7,7 +19,6 @@
 }
 
 @media ( max-width: 725px ) {
-
     .promo {
         background: url(../../img/bg1.png) 40%/cover no-repeat;
     }
@@ -73,6 +84,24 @@
         }
     }
     .button_main {
+        width: 100%;
         margin: 0 auto;
+    }
+    .consultation {
+        background: url('../../img/bg2.png') 60%/cover no-repeat;
+        min-height: 0;
+        &__descr {
+            font-size: 14px;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 19px;
+            line-height: 30px;
+        }
+    }
+    
+    .feed-form {
+        margin-top: 15px;
     }
 }
