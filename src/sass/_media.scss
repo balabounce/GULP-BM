@@ -15,6 +15,35 @@
 }
 
 @media ( max-width: 991px ) {
+    .carousel {
+        button {
+            img {
+                display: none;
+            }
+        }
+        .tns-item {
+            img {
+                width: 70%;
+                margin: 0px auto;
+                display: block;
+            }
+        }
+        .tns-nav {
+            transform: translateX(16%);
+            margin: 0 45%;
+            margin-bottom: 20px;
+            
+        }
+    }
+    .reviews {
+        &__descr {
+               width: 100%;
+               font-size: 16px;
+               font-weight: 300;
+               color: #0d0d0d;
+           }
+    }
+       
 
 }
 
@@ -22,8 +51,6 @@
     .promo {
         background: url(../../img/bg1.png) 40%/cover no-repeat;
     }
-
-
 
     .advantages {
         span {
@@ -45,6 +72,72 @@
             display: none;
         }
     }
+    .reviews {
+        &__client {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            margin-bottom: 70px;
+            &:nth-child(1) {
+                margin-top: 70px;
+            }
+        }
+        br {
+            display: none;
+        }
+        &__name {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        &__achievement {
+            text-align: center;
+
+        }
+        &__descr {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center  ;
+        }
+        img {
+            margin: 0 auto;
+            width: 130px;
+            height: 130px
+        }
+
+    }
+
+    .carousel {
+        button {
+            img {
+                display: none;
+            }
+        }
+        .tns-item {
+            img {
+                width: 70%;
+                margin: 0px auto;
+                display: block;
+            }
+        }
+        .tns-nav {
+            transform: translateX(16%);
+            margin: 0 45%;
+            margin-bottom: 20px;
+            
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 100px;
+            font-size: 12px;
+        }
+        &-item {
+            margin: 0px auto;
+            margin-bottom: 15px;
+        }
+    }
+
 
 }
 
@@ -104,4 +197,26 @@
     .feed-form {
         margin-top: 15px;
     }
+    
+    .carousel {
+        .tns-nav {
+            transform: translateX(16%);
+            margin: 0 40%;
+            margin-bottom: 20px;
+            
+        }
+    }
+
+    .catalog {
+        &__tab {
+            width: 90px;
+            font-size: 10px;
+        }
+        &-item {
+            margin: 0px auto;
+            margin-bottom: 15px;
+        }
+    }
+
+
 }
