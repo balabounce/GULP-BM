@@ -23,11 +23,16 @@
         right: -66px;
     }
     .tns-item {
+
         img {
             margin: 0px auto;
             display: block;
-            
         }
+    }
+
+    .tns-inner {
+        overflow: hidden;
+       
     }
     .tns-nav {
         display: block;

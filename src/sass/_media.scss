@@ -1,4 +1,7 @@
 @media ( max-width: 1200px ) {
+    .container {
+        width: 100%;
+    }
     .title {
         &_left {
             text-align: center;
@@ -11,6 +14,19 @@
     }
     .feed-form {
         margin: 50px auto;
+    }
+    .carousel {
+        .prev, .next {
+            left: 21px;
+        }
+    
+        .next {
+            left: auto;
+
+            right: 33px;
+
+        }
+    
     }
 }
 
@@ -34,6 +50,9 @@
             margin-bottom: 20px;
             
         }
+        &__inner {
+            width: 100%;
+        }
     }
     .reviews {
         &__descr {
@@ -43,6 +62,15 @@
                color: #0d0d0d;
            }
     }
+    .footer {
+        &__info {
+            width: 100%;
+        }
+
+    }
+    
+   
+
        
 
 }
@@ -199,12 +227,7 @@
     }
     
     .carousel {
-        .tns-nav {
-            transform: translateX(16%);
-            margin: 0 40%;
-            margin-bottom: 20px;
-            
-        }
+        display: none;
     }
 
     .catalog {
@@ -213,10 +236,26 @@
             font-size: 10px;
         }
         &-item {
-            margin: 0px auto;
+            margin: 0px 13px;
             margin-bottom: 15px;
+            margin-right: 0;
         }
     }
 
+    .footer {
+        &__social-item {
+            border-radius: 0%;
+            img {
+                width: 45px;
+            }
+        }
+    }
+
+    .modal {
+        &__close {
+            right: 47%;
+            top: 90%;
+        }
+    }
 
 }
