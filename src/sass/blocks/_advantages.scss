@@ -36,4 +36,12 @@
         width: 240px;
         text-align: center;
     }
+    &__icon {
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
 }
